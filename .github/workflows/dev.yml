@@ -106,9 +106,4 @@ jobs:
         run: |
           docker tag squidex-local squidex/squidex:dev
           docker tag squidex-local squidex/squidex:dev-${{ env.BUILD_NUMBER }}
-    
-      - name: Publish - Push Tags
-        if: github.event_name != 'pull_request'
-        run: |
-          docker push squidex/squidex:dev
-          docker push squidex/squidex:dev-${{ env.BUILD_NUMBER }}
+  
