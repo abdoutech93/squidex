@@ -1,5 +1,5 @@
 ﻿// ==========================================================================
-//  Squidex Headless CMS
+//  IFA  CMS
 // ==========================================================================
 //  Copyright (c) Squidex UG (haftungsbeschraenkt)
 //  All rights reserved. Licensed under the MIT license.
@@ -164,7 +164,7 @@ public class Commands
     [Validator(typeof(Validator))]
     public sealed class TranslateArguments : IArgumentModel
     {
-        [Operand(Name = "folder", Description = "The squidex folder.")]
+        [Operand(Name = "folder", Description = "The IFA folder.")]
         public string Folder { get; set; }
 
         [Option(LongName = "single", ShortName = "s", Description = "Single words only.")]
