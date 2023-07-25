@@ -143,7 +143,7 @@
     <value>Bestand is geen afbeelding</value>
   </data>
   <data name="apps.plans.assignedToTeam" xml:space="preserve">
-    <value>Plan is managed by the team.</value>
+    <value>Le plan est géré par l'équipe.</value>
   </data>
   <data name="apps.plans.notFound" xml:space="preserve">
     <value>Een plan met deze id bestaat niet.</value>
@@ -167,10 +167,10 @@
     <value>Kan een rol niet verwijderen wanneer een bijdrager is toegewezen.</value>
   </data>
   <data name="apps.transfer.planAssigned" xml:space="preserve">
-    <value>Subscription must be cancelled first before the app can be transfered.</value>
+    <value>L'abonnement doit d'abord être annulé avant que l'application puisse être transférée.</value>
   </data>
   <data name="apps.transfer.teamNotFound" xml:space="preserve">
-    <value>The team does not exist.</value>
+    <value>L'équipe n'existe pas.</value>
   </data>
   <data name="assets.folderNotFound" xml:space="preserve">
     <value>Assetmap bestaat niet.</value>
@@ -407,7 +407,7 @@
     <value>Voorbeeld-URL's</value>
   </data>
   <data name="common.product" xml:space="preserve">
-    <value>Squidex Headless CMS</value>
+    <value>IFA  CMS</value>
   </data>
   <data name="common.properties" xml:space="preserve">
     <value>Eigenschappen</value>
@@ -461,7 +461,7 @@
     <value>Meer dan één inhoud komt overeen met de zoekopdracht.</value>
   </data>
   <data name="contents.componentNotCreatable" xml:space="preserve">
-    <value>Component content cannot be created.</value>
+    <value>Le contenu du composant ne peut pas être créé.</value>
   </data>
   <data name="contents.draftNotCreateForUnpublished" xml:space="preserve">
     <value>Je kunt alleen een nieuwe versie maken wanneer de inhoud is gepubliceerd.</value>
@@ -719,7 +719,7 @@
     <value>Entiteit ({id}) heeft versie {verwachteVersion} aangevraagd, maar heeft {currentVersion} gevonden.</value>
   </data>
   <data name="history.apps.assetScriptsConfigured" xml:space="preserve">
-    <value>updated asset scripts</value>
+    <value>scripts d'actifs mis à jour</value>
   </data>
   <data name="history.apps.clientAdded" xml:space="preserve">
     <value>client {[Id]} toegevoegd aan app</value>
@@ -731,7 +731,7 @@
     <value>bijgewerkte client {[Id]}</value>
   </data>
   <data name="history.apps.common.updated" xml:space="preserve">
-    <value>updated general settings</value>
+    <value>paramètres généraux mis à jour</value>
   </data>
   <data name="history.apps.contributoreAssigned" xml:space="preserve">
     <value>heeft {user:[Contributor]} toegewezen als {[Role]}</value>
@@ -740,13 +740,13 @@
     <value>heeft {user:[Contributor]} verwijderd uit app</value>
   </data>
   <data name="history.apps.created" xml:space="preserve">
-    <value>created the app.</value>
+    <value>créé l'application.</value>
   </data>
   <data name="history.apps.imageRemoved" xml:space="preserve">
-    <value>removed app image</value>
+    <value>image de l'application supprimée</value>
   </data>
   <data name="history.apps.imageUploaded" xml:space="preserve">
-    <value>uploaded a new app image</value>
+    <value>a téléchargé une nouvelle image d'application</value>
   </data>
   <data name="history.apps.languagedAdded" xml:space="preserve">
     <value>taal toegevoegd {[Language]}</value>
@@ -779,16 +779,16 @@
     <value>Bijgewerkte UI instellingen</value>
   </data>
   <data name="history.apps.transfered" xml:space="preserve">
-    <value>updated app to client</value>
+    <value>application mise à jour pour le client</value>
   </data>
   <data name="history.apps.workflowAdded" xml:space="preserve">
-    <value>added workflow {[Name]}.</value>
+    <value>flux de travail ajouté {[Name]}.</value>
   </data>
   <data name="history.apps.workflowDeleted" xml:space="preserve">
-    <value>deleted a workflow.</value>
+    <value>supprimé un flux de travail.</value>
   </data>
   <data name="history.apps.workflowUpdated" xml:space="preserve">
-    <value>updated a workflow.</value>
+    <value>mis à jour un flux de travail.</value>
   </data>
   <data name="history.assets.replaced" xml:space="preserve">
     <value>item vervangen.</value>
@@ -866,22 +866,22 @@
     <value>veranderde status van {[Schema]} inhoud in {[Status]}.</value>
   </data>
   <data name="history.teams.contributoreAssigned" xml:space="preserve">
-    <value>assigned {user:[Contributor]} as {[Role]}.</value>
+    <value>attribué {user:[Contributor]} comme {[Role]}.</value>
   </data>
   <data name="history.teams.contributoreRemoved" xml:space="preserve">
-    <value>removed {user:[Contributor]} from team.</value>
+    <value>supprimé {user:[Contributor]} de l'équipe.</value>
   </data>
   <data name="history.teams.created" xml:space="preserve">
-    <value>has created team {[Name]}.</value>
+    <value>a créé l'équipe {[Name]}.</value>
   </data>
   <data name="history.teams.planChanged" xml:space="preserve">
-    <value>changed plan to {[Plan]}.</value>
+    <value>changé de forfait pour {[Plan]}.</value>
   </data>
   <data name="history.teams.planReset" xml:space="preserve">
-    <value>resetted plan.</value>
+    <value>plan réinitialisé.</value>
   </data>
   <data name="history.teams.updated" xml:space="preserve">
-    <value>updated general settings and renamed name to {[Name]}.</value>
+    <value>paramètres généraux mis à jour et nom renommé en {[Name]}.</value>
   </data>
   <data name="login.githubPrivateEmail" xml:space="preserve">
     <value>Jouw e-mailadres is ingesteld op privé in Github. Stel het in op openbaar om Github-login te gebruiken.</value>
@@ -962,73 +962,73 @@
     <value>{name} Schema</value>
   </data>
   <data name="setup.createUser.button" xml:space="preserve">
-    <value>Create User</value>
+    <value>Créer un utilisateur</value>
   </data>
   <data name="setup.createUser.confirmPassword" xml:space="preserve">
-    <value>Confirm</value>
+    <value>Confirmer</value>
   </data>
   <data name="setup.createUser.failure" xml:space="preserve">
-    <value>Neither password authentication nor an external authentication provider such as Google is configured. Please check your settings and logs.</value>
+    <value>Ni l'authentification par mot de passe ni un fournisseur d'authentification externe tel que Google ne sont configurés. Veuillez vérifier vos paramètres et vos journaux.</value>
   </data>
   <data name="setup.createUser.headline" xml:space="preserve">
-    <value>Admin User</value>
+    <value>Utilisateur administrateur</value>
   </data>
   <data name="setup.createUser.headlineCreate" xml:space="preserve">
-    <value>Create Admin User</value>
+    <value>Créer un utilisateur administrateur</value>
   </data>
   <data name="setup.createUser.loginHint" xml:space="preserve">
-    <value>You have configured at least one external authentication provider such as Google. Just go to the login page and login to become administrator.</value>
+    <value>Vous avez configuré au moins un fournisseur d'authentification externe tel que Google. Allez simplement sur la page de connexion et connectez-vous pour devenir administrateur.</value>
   </data>
   <data name="setup.createUser.loginLink" xml:space="preserve">
-    <value>Go to Login Page.</value>
+    <value>Accédez à la page de connexion.</value>
   </data>
   <data name="setup.createUser.separator" xml:space="preserve">
-    <value>OR</value>
+    <value>OU</value>
   </data>
   <data name="setup.headline" xml:space="preserve">
     <value>Installation</value>
   </data>
   <data name="setup.hint" xml:space="preserve">
-    <value>You see this screen because no user exists yet. After a user is created, you are not able to use this setup page again.</value>
+    <value>Cet écran s'affiche car aucun utilisateur n'existe encore. Une fois qu'un utilisateur est créé, vous ne pouvez plus utiliser cette page de configuration.</value>
   </data>
   <data name="setup.madeBy" xml:space="preserve">
-    <value>Proudly made by</value>
+    <value>Fièrement fabriqué par</value>
   </data>
   <data name="setup.madeByCopyright" xml:space="preserve">
-    <value>Sebastian Stehle and Contributors, 2016-2021</value>
+    <value>Sebastian Stehle et contributeurs, 2016-2021</value>
   </data>
   <data name="setup.ruleAppCreation.warningAdmins" xml:space="preserve">
-    <value>With your setup, only admins can create new apps. If you want to change this set &lt;code&gt;UI__ONLYADMINSCANCREATEAPPS=false&lt;/code&gt; as environment variable.</value>
+    <value>Avec votre configuration, seuls les administrateurs peuvent créer de nouvelles applications. Si vous souhaitez modifier cela, définissez &lt;code&gt;UI__ONLYADMINSCANCREATEAPPS=false&lt;/code&gt; comme variable d'environnement.</value>
   </data>
   <data name="setup.ruleAppCreation.warningAll" xml:space="preserve">
-    <value>With your setup, every user can create new apps. If you want to change this set &lt;code&gt;UI__ONLYADMINSCANCREATEAPPS=true&lt;/code&gt; as environment variable.</value>
+    <value>Avec votre configuration, chaque utilisateur peut créer de nouvelles applications. Si vous souhaitez modifier cela, définissez &lt;code&gt;UI__ONLYADMINSCANCREATEAPPS=true&lt;/code&gt; comme variable d'environnement.</value>
   </data>
   <data name="setup.ruleFolder.warning" xml:space="preserve">
-    <value>You are using the &lt;strong&gt;folder asset store&lt;/strong&gt; where all assets are stored in the file system. Please remember to include the asset folder into your backup strategy and map it to a volume, if you are using docker.</value>
+    <value>Vous utilisez le &lt;strong&gt;magasin d'actifs de dossier&lt;/strong&gt; où tous les actifs sont stockés dans le système de fichiers. N'oubliez pas d'inclure le dossier d'actifs dans votre stratégie de sauvegarde et de le mapper sur un volume, si vous utilisez docker.</value>
   </data>
   <data name="setup.ruleFtp.warning" xml:space="preserve">
-    <value>You are using the &lt;strong&gt;FTP asset store&lt;/strong&gt;. It is not recommended to use this storage type because of bad performance.</value>
+    <value>Vous utilisez le &lt;strong&gt;magasin de ressources FTP&lt;/strong&gt; . Il n'est pas recommandé d'utiliser ce type de stockage en raison de mauvaises performances.</value>
   </data>
   <data name="setup.ruleHttps.failure" xml:space="preserve">
-    <value> You are not accessing the site over https. If this warning is not correct then Squidex cannot detect https mode, because your instance is behind a reverse proxy such as nginx. Ensure that http headers are forwarded properly, via the &lt;code&gt;X-Forwarded-*&lt;/code&gt; headers.</value>
+    <value>Vous n'accédez pas au site via https. Si cet avertissement n'est pas correct, IFA ne peut pas détecter le mode https, car votre instance se trouve derrière un proxy inverse tel que nginx. Assurez-vous que les en-têtes http sont correctement transférés, via les en-têtes &lt;code&gt;X-Forwarded-*&lt;/code&gt; .</value>
   </data>
   <data name="setup.ruleHttps.success" xml:space="preserve">
-    <value>Congratulations, you are accessing your Squidex installation over a secure connection (https).</value>
+    <value>Félicitations, vous accédez à votre installation IFA via une connexion sécurisée (https).</value>
   </data>
   <data name="setup.rules.headline" xml:space="preserve">
-    <value>System Checklist</value>
+    <value>Liste de contrôle du système</value>
   </data>
   <data name="setup.ruleTeamCreation.warningAdmins" xml:space="preserve">
-    <value>With your setup, only admins can create new teams. If you want to change this set &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=false&lt;/code&gt; as environment variable.</value>
+    <value>Avec votre configuration, seuls les administrateurs peuvent créer de nouvelles équipes. Si vous souhaitez modifier ce paramètre, &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=false&lt;/code&gt; comme variable d'environnement.</value>
   </data>
   <data name="setup.ruleTeamCreation.warningAll" xml:space="preserve">
-    <value>With your setup, every user can create new teams. If you want to change this set &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=true&lt;/code&gt; as environment variable.</value>
+    <value>Avec votre configuration, chaque utilisateur peut créer de nouvelles équipes. Si vous souhaitez modifier ce paramètre, &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=true&lt;/code&gt; comme variable d'environnement.</value>
   </data>
   <data name="setup.ruleUrl.failure" xml:space="preserve">
-    <value>You should access Squidex only over one canonical URL and configure this URL with the &lt;code&gt;URLS__BASEURL&lt;/code&gt; environment variable. The current base URL &lt;code&gt;{actual}&lt;/code&gt; does not match to the base url &lt;code&gt;{configured}&lt;/code&gt;. This variable must point to the public URL under which your Squidex instance is available.</value>
+    <value>Vous devez accéder à IFA uniquement via une URL canonique et configurer cette URL avec la variable d'environnement &lt;code&gt;URLS__BASEURL&lt;/code&gt; . L'URL de base actuelle &lt;code&gt;{actual}&lt;/code&gt; ne correspond pas à l'URL de base &lt;code&gt;{configured}&lt;/code&gt; . Cette variable doit pointer vers l'URL publique sous laquelle votre instance IFA est disponible.</value>
   </data>
   <data name="setup.ruleUrl.success" xml:space="preserve">
-    <value>Congratulations, the &lt;code&gt;URLS__BASEURL&lt;/code&gt; environment variable is configured properly. This variable  must point to the public URL under which your Squidex instance is available.</value>
+    <value>Félicitations, la variable d'environnement &lt;code&gt;URLS__BASEURL&lt;/code&gt; est configurée correctement. Cette variable doit pointer vers l'URL publique sous laquelle votre instance IFA est disponible.</value>
   </data>
   <data name="setup.title" xml:space="preserve">
     <value>Installation</value>
@@ -1046,13 +1046,13 @@
     <value>Cookies en analyse</value>
   </data>
   <data name="users.consent.cookiesText" xml:space="preserve">
-    <value>&lt;p&gt; Ik begrijp en ga ermee akkoord dat Squidex cookies gebruikt om ervoor te zorgen dat je de beste ervaring op ons platform krijgt en om jouw inlogstatus op te slaan. &lt;/p&gt; &lt;p&gt; Ik begrijp en ga ermee akkoord dat Squidex heeft Google Analytics geïntegreerd (met de anonimiseringsfunctie). Google Analytics is een webanalysedienst om gegevens over het gedrag van gebruikers te verzamelen en te analyseren. &lt;/p&gt; &lt;p&gt; Ik accepteer de &lt;a href = "{privacyUrl} " target = "_blank " rel = "noopener "&gt; privacybeleid &lt;/a&gt;. &lt;/p&gt; </value>
+    <value>&lt;p&gt; Ik begrijp en ga ermee akkoord dat IFA cookies gebruikt om ervoor te zorgen dat je de beste ervaring op ons platform krijgt en om jouw inlogstatus op te slaan. &lt;/p&gt; &lt;p&gt; Ik begrijp en ga ermee akkoord dat IFA heeft Google Analytics geïntegreerd (met de anonimiseringsfunctie). Google Analytics is een webanalysedienst om gegevens over het gedrag van gebruikers te verzamelen en te analyseren. &lt;/p&gt; &lt;p&gt; Ik accepteer de &lt;a href = "{privacyUrl} " target = "_blank " rel = "noopener "&gt; privacybeleid &lt;/a&gt;. &lt;/p&gt; </value>
   </data>
   <data name="users.consent.emailHeadline" xml:space="preserve">
     <value>Geautomatiseerde e-mailberichten (optioneel)</value>
   </data>
   <data name="users.consent.emailText" xml:space="preserve">
-    <value>Ik begrijp en ga ermee akkoord dat Squidex e-mails verzendt om mij te informeren over nieuwe functies, verbroken veranderingen en downtime.</value>
+    <value>Ik begrijp en ga ermee akkoord dat IFA e-mails verzendt om mij te informeren over nieuwe functies, verbroken veranderingen en downtime.</value>
   </data>
   <data name="users.consent.headline" xml:space="preserve">
     <value>We hebben je toestemming nodig</value>
@@ -1064,7 +1064,7 @@
     <value>Persoonlijke informatie</value>
   </data>
   <data name="users.consent.piiText" xml:space="preserve">
-    <value>Ik begrijp en ga ermee akkoord dat Squidex de volgende privégegevens verzamelt die worden opgehaald van externe authenticatieleveranciers zoals Google, Microsoft of Github. &lt;ul class = " personal-information "&gt; &lt;li&gt; Persoonlijke basisinformatie (voornaam, achternaam en foto) wordt aan alle andere gebruikers verstrekt, zodat ze je aan hun werkruimte kunnen toevoegen. &lt;/li&gt; &lt;li&gt; Je hebt op elk moment de mogelijkheid om deze informatie te wijzigen om jouw account te anonimiseren . &lt;/li&gt; &lt;li&gt; Jouw gebruikersaccount heeft een unieke identificatie en voor al jouw wijzigingen volgen we, dat je deze wijzigingen hebt aangebracht en deze informatie aan andere gebruikers verstrekt. &lt;/li&gt; &lt;/ul&gt; </value>
+    <value>Ik begrijp en ga ermee akkoord dat IFA de volgende privégegevens verzamelt die worden opgehaald van externe authenticatieleveranciers zoals Google, Microsoft of Github. &lt;ul class = " personal-information "&gt; &lt;li&gt; Persoonlijke basisinformatie (voornaam, achternaam en foto) wordt aan alle andere gebruikers verstrekt, zodat ze je aan hun werkruimte kunnen toevoegen. &lt;/li&gt; &lt;li&gt; Je hebt op elk moment de mogelijkheid om deze informatie te wijzigen om jouw account te anonimiseren . &lt;/li&gt; &lt;li&gt; Jouw gebruikersaccount heeft een unieke identificatie en voor al jouw wijzigingen volgen we, dat je deze wijzigingen hebt aangebracht en deze informatie aan andere gebruikers verstrekt. &lt;/li&gt; &lt;/ul&gt; </value>
   </data>
   <data name="users.consent.title" xml:space="preserve">
     <value>Toestemming</value>
@@ -1133,7 +1133,7 @@
     <value>Uitloggen</value>
   </data>
   <data name="users.noEmailAddress" xml:space="preserve">
-    <value>We cannot get the email address from authentication provider.</value>
+    <value>Nous ne pouvons pas obtenir l'adresse e-mail du fournisseur d'authentification.</value>
   </data>
   <data name="users.profile.addLoginDone" xml:space="preserve">
     <value>Login succesvol toegevoegd.</value>

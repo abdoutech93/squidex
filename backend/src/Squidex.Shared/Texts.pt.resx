@@ -407,7 +407,7 @@
     <value>pre-visualizar URLs</value>
   </data>
   <data name="common.product" xml:space="preserve">
-    <value>Squidex Headless CMS</value>
+    <value>IFA  CMS</value>
   </data>
   <data name="common.properties" xml:space="preserve">
     <value>Propriedades</value>
@@ -731,7 +731,7 @@
     <value>cliente {[Id]} actualizado</value>
   </data>
   <data name="history.apps.common.updated" xml:space="preserve">
-    <value>updated general settings</value>
+    <value>paramètres généraux mis à jour</value>
   </data>
   <data name="history.apps.contributoreAssigned" xml:space="preserve">
     <value>associado {user:[Contributor]} a {[Role]}</value>
@@ -1010,10 +1010,10 @@
     <value>Está a usar &lt;strong&gt;armazenamento de ficheiros com FTP&lt;/strong&gt;. Não é recomendado usar este tipo devido a problemas de performance.</value>
   </data>
   <data name="setup.ruleHttps.failure" xml:space="preserve">
-    <value>Não está a aceder a este site via https. Se este aviso não está correcto então Squidex não pode detectar o modo https, provavelmente a sua instância está por tras de uma reverse proxy como nginx. Confirme que http headers are forwarded properly, via the &lt;code&gt;X-Forwarded-*&lt;/code&gt; headers.</value>
+    <value>Não está a aceder a este site via https. Se este aviso não está correcto então IFA não pode detectar o modo https, provavelmente a sua instância está por tras de uma reverse proxy como nginx. Confirme que http headers are forwarded properly, via the &lt;code&gt;X-Forwarded-*&lt;/code&gt; headers.</value>
   </data>
   <data name="setup.ruleHttps.success" xml:space="preserve">
-    <value>Parabéns, está aceder Squidex por detrás de uma conexão segura (https).</value>
+    <value>Parabéns, está aceder IFA por detrás de uma conexão segura (https).</value>
   </data>
   <data name="setup.rules.headline" xml:space="preserve">
     <value>Lista de verificação do sistema</value>
@@ -1025,7 +1025,7 @@
     <value>Com a sua configuração, qualquer utilizador pode criar equipas. Se pretende alterar, altere esta variavel de sistema  &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=true&lt;/code&gt;.</value>
   </data>
   <data name="setup.ruleUrl.failure" xml:space="preserve">
-    <value>Deve aceder ao Squidex so atraves de um URL canónico e configurar este URL na variavel de ambiente &lt;code&gt;URLS__BASEURL&lt;/code&gt;. A base de URL actual &lt;code&gt;{actual}&lt;/code&gt; não coincide com &lt;code&gt;{configured}&lt;/code&gt;. Esta variavel deve apontar para um URL publico onde a sua instancia Squidex está disponível.</value>
+    <value>Deve aceder ao IFA so atraves de um URL canónico e configurar este URL na variavel de ambiente &lt;code&gt;URLS__BASEURL&lt;/code&gt;. A base de URL actual &lt;code&gt;{actual}&lt;/code&gt; não coincide com &lt;code&gt;{configured}&lt;/code&gt;. Esta variavel deve apontar para um URL publico onde a sua instancia IFA está disponível.</value>
   </data>
   <data name="setup.ruleUrl.success" xml:space="preserve">
     <value>Parabéns, a variavel de ambiente &lt;code&gt;URLS__BASEURL&lt;/code&gt; environment está configurada correctamente. Esta variavel deve apontar para um URL publico no qual a sua instância de Suidex está disponível.</value>
@@ -1046,13 +1046,13 @@
     <value>Cookies &amp; Analytics</value>
   </data>
   <data name="users.consent.cookiesText" xml:space="preserve">
-    <value>&lt;p&gt; Entendo e concordo que o Squidex usa cookies para garantir que você obtenha a melhor experiência em nossa plataforma e para armazenar seu status de login.. &lt;/p&gt;&lt;p&gt; Entendo e concordo que o Squidex integrou o Google Analytics (com a função de anonimizador). O Google Analytics é um serviço de análise da web para coletar e analisar dados sobre o comportamento dos utilizadors. &lt;/p&gt;&lt;p&gt; Eu aceito as &lt;a href="{privacyUrl}" target="_blank" rel="noopener"&gt;politicas privadas&lt;/a&gt;.&lt;/p&gt;</value>
+    <value>&lt;p&gt; Entendo e concordo que o IFA usa cookies para garantir que você obtenha a melhor experiência em nossa plataforma e para armazenar seu status de login.. &lt;/p&gt;&lt;p&gt; Entendo e concordo que o IFA integrou o Google Analytics (com a função de anonimizador). O Google Analytics é um serviço de análise da web para coletar e analisar dados sobre o comportamento dos utilizadors. &lt;/p&gt;&lt;p&gt; Eu aceito as &lt;a href="{privacyUrl}" target="_blank" rel="noopener"&gt;politicas privadas&lt;/a&gt;.&lt;/p&gt;</value>
   </data>
   <data name="users.consent.emailHeadline" xml:space="preserve">
     <value>E-Mailsa automáticos (opcional)</value>
   </data>
   <data name="users.consent.emailText" xml:space="preserve">
-    <value>Entendo e concordo que o Squidex envia e-mails para me informar sobre novos ficheiros, alterações de última hora e tempos de inatividade.</value>
+    <value>Entendo e concordo que o IFA envia e-mails para me informar sobre novos ficheiros, alterações de última hora e tempos de inatividade.</value>
   </data>
   <data name="users.consent.headline" xml:space="preserve">
     <value>Nós precisamos do seu consentimento</value>
@@ -1064,7 +1064,7 @@
     <value>Informação pessoal</value>
   </data>
   <data name="users.consent.piiText" xml:space="preserve">
-    <value>Entendo e concordo que o Squidex coleta as seguintes informações privadas que são recuperadas de provedores de autenticação externos, como Google, Microsoft ou Github. &lt;ul class="personal-information"&gt; &lt;li&gt; Informações pessoais básicas (nome, sobrenome e foto) são fornecidas a todos os outros utilizadors para que possam adicioná-lo ao seu espaço de trabalho. &lt;/li&gt;&lt;li&gt; A qualquer momento, você tem a opção de alterar essas informações para anonimizar sua conta. &lt;/li&gt;&lt;li&gt; Sua conta de utilizador tem um identificador exclusivo e, para todas as suas alterações, rastreamos que você fez essas alterações e forneceu essas informações a outros utilizadors. &lt;/li&gt;&lt;/ul&gt;</value>
+    <value>Entendo e concordo que o IFA coleta as seguintes informações privadas que são recuperadas de provedores de autenticação externos, como Google, Microsoft ou Github. &lt;ul class="personal-information"&gt; &lt;li&gt; Informações pessoais básicas (nome, sobrenome e foto) são fornecidas a todos os outros utilizadors para que possam adicioná-lo ao seu espaço de trabalho. &lt;/li&gt;&lt;li&gt; A qualquer momento, você tem a opção de alterar essas informações para anonimizar sua conta. &lt;/li&gt;&lt;li&gt; Sua conta de utilizador tem um identificador exclusivo e, para todas as suas alterações, rastreamos que você fez essas alterações e forneceu essas informações a outros utilizadors. &lt;/li&gt;&lt;/ul&gt;</value>
   </data>
   <data name="users.consent.title" xml:space="preserve">
     <value>Consentimento</value>

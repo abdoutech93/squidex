@@ -134,7 +134,7 @@
     <value>无法删除主语言。</value>
   </data>
   <data name="apps.maximumTotalReached" xml:space="preserve">
-    <value>You cannot create more apps. Please contact the support to remove this restriction from your account.</value>
+    <value>Vous ne pouvez pas créer plus d'applications. Veuillez contacter le support pour supprimer cette restriction de votre compte.</value>
   </data>
   <data name="apps.nameAlreadyExists" xml:space="preserve">
     <value>同名应用已经存在。</value>
@@ -143,7 +143,7 @@
     <value>文件不是图像</value>
   </data>
   <data name="apps.plans.assignedToTeam" xml:space="preserve">
-    <value>Plan is managed by the team.</value>
+    <value>Le plan est géré par l'équipe.</value>
   </data>
   <data name="apps.plans.notFound" xml:space="preserve">
     <value>不存在具有此 ID 的计划。</value>
@@ -167,10 +167,10 @@
     <value>当分配了贡献者时无法删除角色。</value>
   </data>
   <data name="apps.transfer.planAssigned" xml:space="preserve">
-    <value>Subscription must be cancelled first before the app can be transfered.</value>
+    <value>L'abonnement doit d'abord être annulé avant que l'application puisse être transférée.</value>
   </data>
   <data name="apps.transfer.teamNotFound" xml:space="preserve">
-    <value>The team does not exist.</value>
+    <value>L'équipe n'existe pas.</value>
   </data>
   <data name="assets.folderNotFound" xml:space="preserve">
     <value>资源文件夹不存在。</value>
@@ -407,7 +407,7 @@
     <value>预览网址</value>
   </data>
   <data name="common.product" xml:space="preserve">
-    <value>Squidex Headless CMS</value>
+    <value>IFA  CMS</value>
   </data>
   <data name="common.properties" xml:space="preserve">
     <value>属性</value>
@@ -461,7 +461,7 @@
     <value>多个内容与查询匹配。</value>
   </data>
   <data name="contents.componentNotCreatable" xml:space="preserve">
-    <value>Component content cannot be created.</value>
+    <value>Le contenu du composant ne peut pas être créé.</value>
   </data>
   <data name="contents.draftNotCreateForUnpublished" xml:space="preserve">
     <value>您只能在内容发布后创建新版本。</value>
@@ -470,7 +470,7 @@
     <value>没有要删除的内容。</value>
   </data>
   <data name="contents.invalidAllQuery" xml:space="preserve">
-    <value>Either Ids or Schedule range must be defined.</value>
+    <value>Les identifiants ou la plage de planification doivent être définis.</value>
   </data>
   <data name="contents.invalidArrayOfObjects" xml:space="preserve">
     <value>无效的 json 类型，预期的对象数组。</value>
@@ -536,7 +536,7 @@
     <value>未找到 ID {id}。</value>
   </data>
   <data name="contents.validation.assetType" xml:space="preserve">
-    <value>Not of expected type: {type}.</value>
+    <value>Pas du type attendu : {type}.</value>
   </data>
   <data name="contents.validation.between" xml:space="preserve">
     <value>必须介于 {min} 和 {max} 之间。</value>
@@ -647,7 +647,7 @@
     <value>存在另一个具有相同值的内容。</value>
   </data>
   <data name="contents.validation.uniqueObjectValues" xml:space="preserve">
-    <value>Must not contain items with duplicate '{field}' fields.</value>
+    <value>Ne doit pas contenir d'éléments avec des champs '{field}' en double.</value>
   </data>
   <data name="contents.validation.unknownField" xml:space="preserve">
     <value>不是已知的 {fieldType}。</value>
@@ -704,7 +704,7 @@
     <value>此密码以前曾出现在数据泄露事件中，永远不应使用。如果您以前曾在任何地方使用过它，请更改它！</value>
   </data>
   <data name="dotnet_identity_UserLockedOut" xml:space="preserve">
-    <value>User is locked out.</value>
+    <value>L'utilisateur est verrouillé.</value>
   </data>
   <data name="exceptions.domainObjectConflict" xml:space="preserve">
     <value>实体 ({id}) 已经存在。</value>
@@ -719,7 +719,7 @@
     <value>实体 ({id}) 请求版本 {expectedVersion}，但找到 {currentVersion}。</value>
   </data>
   <data name="history.apps.assetScriptsConfigured" xml:space="preserve">
-    <value>updated asset scripts</value>
+    <value>scripts d'actifs mis à jour</value>
   </data>
   <data name="history.apps.clientAdded" xml:space="preserve">
     <value>将客户端 {[Id]} 添加到应用程序</value>
@@ -731,7 +731,7 @@
     <value>更新的客户端 {[Id]}</value>
   </data>
   <data name="history.apps.common.updated" xml:space="preserve">
-    <value>updated general settings</value>
+    <value>paramètres généraux mis à jour</value>
   </data>
   <data name="history.apps.contributoreAssigned" xml:space="preserve">
     <value>已分配 {user:[Contributor]} 作为 {[Role]}</value>
@@ -740,13 +740,13 @@
     <value>从应用中删除了 {user:[Contributor]}</value>
   </data>
   <data name="history.apps.created" xml:space="preserve">
-    <value>created the app.</value>
+    <value>créé l'application.</value>
   </data>
   <data name="history.apps.imageRemoved" xml:space="preserve">
-    <value>removed app image</value>
+    <value>image de l'application supprimée</value>
   </data>
   <data name="history.apps.imageUploaded" xml:space="preserve">
-    <value>uploaded a new app image</value>
+    <value>a téléchargé une nouvelle image d'application</value>
   </data>
   <data name="history.apps.languagedAdded" xml:space="preserve">
     <value>添加语言 {[Language]}</value>
@@ -779,16 +779,16 @@
     <value>更新的 UI 设置</value>
   </data>
   <data name="history.apps.transfered" xml:space="preserve">
-    <value>updated app to client</value>
+    <value>application mise à jour pour le client</value>
   </data>
   <data name="history.apps.workflowAdded" xml:space="preserve">
-    <value>added workflow {[Name]}.</value>
+    <value>flux de travail ajouté {[Name]}.</value>
   </data>
   <data name="history.apps.workflowDeleted" xml:space="preserve">
-    <value>deleted a workflow.</value>
+    <value>supprimé un flux de travail.</value>
   </data>
   <data name="history.apps.workflowUpdated" xml:space="preserve">
-    <value>updated a workflow.</value>
+    <value>mis à jour un flux de travail.</value>
   </data>
   <data name="history.assets.replaced" xml:space="preserve">
     <value>替换的资源。</value>
@@ -866,22 +866,22 @@
     <value>已将 {[Schema]} 内容的状态更改为 {[Status]}。</value>
   </data>
   <data name="history.teams.contributoreAssigned" xml:space="preserve">
-    <value>assigned {user:[Contributor]} as {[Role]}.</value>
+    <value>attribué {user:[Contributor]} comme {[Role]}.</value>
   </data>
   <data name="history.teams.contributoreRemoved" xml:space="preserve">
-    <value>removed {user:[Contributor]} from team.</value>
+    <value>supprimé {user:[Contributor]} de l'équipe.</value>
   </data>
   <data name="history.teams.created" xml:space="preserve">
-    <value>has created team {[Name]}.</value>
+    <value>a créé l'équipe {[Name]}.</value>
   </data>
   <data name="history.teams.planChanged" xml:space="preserve">
-    <value>changed plan to {[Plan]}.</value>
+    <value>changé de forfait pour {[Plan]}.</value>
   </data>
   <data name="history.teams.planReset" xml:space="preserve">
-    <value>resetted plan.</value>
+    <value>plan réinitialisé.</value>
   </data>
   <data name="history.teams.updated" xml:space="preserve">
-    <value>updated general settings and renamed name to {[Name]}.</value>
+    <value>paramètres généraux mis à jour et nom renommé en {[Name]}.</value>
   </data>
   <data name="login.githubPrivateEmail" xml:space="preserve">
     <value>您的邮箱在 Github 中设置为私有。请设置为公开以使用 Github 登录。</value>
@@ -899,13 +899,13 @@
     <value>字段不能是 UI 字段。</value>
   </data>
   <data name="schemas.fieldIsLocked" xml:space="preserve">
-    <value>Schema field is locked.</value>
+    <value>Le champ Schéma est verrouillé.</value>
   </data>
   <data name="schemas.fieldNameAlreadyExists" xml:space="preserve">
     <value>已存在同名字段。</value>
   </data>
   <data name="schemas.fieldNotInSchema" xml:space="preserve">
-    <value>Field is not part of the schema.</value>
+    <value>Le champ ne fait pas partie du schéma.</value>
   </data>
   <data name="schemas.fieldsNotCovered" xml:space="preserve">
     <value>字段 ID 未涵盖所有字段。</value>
@@ -914,10 +914,10 @@
     <value>一个同名的Schemas已经存在。</value>
   </data>
   <data name="schemas.noPermission" xml:space="preserve">
-    <value>You do not have permission for this schema.</value>
+    <value>Vous n'avez pas l'autorisation pour ce schéma.</value>
   </data>
   <data name="schemas.notFoundId" xml:space="preserve">
-    <value>Schema {id} does not exist.</value>
+    <value>Le schéma {id} n'existe pas.</value>
   </data>
   <data name="schemas.number.inlineEditorError" xml:space="preserve">
     <value>无线电编辑器不允许内联编辑。</value>
@@ -1010,22 +1010,22 @@
     <value>您正在使用 &lt;strong&gt;FTP 资源存储&lt;/strong&gt;。由于性能不佳，不建议使用这种存储类型。</value>
   </data>
   <data name="setup.ruleHttps.failure" xml:space="preserve">
-    <value> 您不是通过 https 访问站点。如果此警告不正确，则 Squidex 无法检测 https 模式，因为您的实例位于反向代理（例如 nginx）之后。确保正确转发 http 标头, 通过 &lt;code&gt;X-Forwarded-*&lt;/code&gt; 标头。</value>
+    <value> 您不是通过 https 访问站点。如果此警告不正确，则 IFA 无法检测 https 模式，因为您的实例位于反向代理（例如 nginx）之后。确保正确转发 http 标头, 通过 &lt;code&gt;X-Forwarded-*&lt;/code&gt; 标头。</value>
   </data>
   <data name="setup.ruleHttps.success" xml:space="preserve">
-    <value>恭喜您，您正在通过安全连接 (https) 访问 Squidex 安装。</value>
+    <value>恭喜您，您正在通过安全连接 (https) 访问 IFA 安装。</value>
   </data>
   <data name="setup.rules.headline" xml:space="preserve">
     <value>系统清单</value>
   </data>
   <data name="setup.ruleTeamCreation.warningAdmins" xml:space="preserve">
-    <value>With your setup, only admins can create new teams. If you want to change this set &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=false&lt;/code&gt; as environment variable.</value>
+    <value>Avec votre configuration, seuls les administrateurs peuvent créer de nouvelles équipes. Si vous souhaitez modifier ce paramètre, &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=false&lt;/code&gt; comme variable d'environnement.</value>
   </data>
   <data name="setup.ruleTeamCreation.warningAll" xml:space="preserve">
-    <value>With your setup, every user can create new teams. If you want to change this set &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=true&lt;/code&gt; as environment variable.</value>
+    <value>Avec votre configuration, chaque utilisateur peut créer de nouvelles équipes. Si vous souhaitez modifier ce paramètre, &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=true&lt;/code&gt; comme variable d'environnement.</value>
   </data>
   <data name="setup.ruleUrl.failure" xml:space="preserve">
-    <value>您应该仅通过一个规范 URL 访问 Squidex，并通过 &lt;code&gt;URLS__BASEURL&lt;/code&gt; 环境变量配置此 URL。当前的基本 URL &lt;code&gt;{actual}&lt;/code&gt;与基本 url &lt;code&gt;{configured}&lt;/code&gt; 不匹配。</value>
+    <value>您应该仅通过一个规范 URL 访问 IFA &lt;code&gt;URLS__BASEURL&lt;/code&gt; 环境变量配置此 URL。当前的基本 URL &lt;code&gt;{actual}&lt;/code&gt;与基本 url &lt;code&gt;{configured}&lt;/code&gt; 不匹配。</value>
   </data>
   <data name="setup.ruleUrl.success" xml:space="preserve">
     <value>恭喜 &lt;code&gt;URLS__BASEURL&lt;/code&gt; 环境变量配置正确。</value>
@@ -1046,13 +1046,13 @@
     <value>Cookies &amp; Analytics</value>
   </data>
   <data name="users.consent.cookiesText" xml:space="preserve">
-    <value>&lt;p&gt;我理解并同意 Squidex 使用 cookie 来确保您在我们的平台上获得最佳体验并存储您的登录状态。&lt;/p&gt;&lt;p&gt;我理解并同意 Squidex 已集成 Google Analytics（具有匿名器功能）。Google Analytics 是一项网络分析服务，用于收集和分析有关用户行为的数据。&lt;/p&gt;&lt;p&gt; 我接受 &lt;a href="{privacyUrl}" target="_blank" rel="noopener"&gt;隐私政策&lt;/a&gt;.&lt;/p&gt;</value>
+    <value>&lt;p&gt;我理解并同意 IFA 使用 cookie 来确保您在我们的平台上获得最佳体验并存储您的登录状态。&lt;/p&gt;&lt;p&gt;我理解并同意 IFA 已集成 Google Analytics（具有匿名器功能）。Google Analytics 是一项网络分析服务，用于收集和分析有关用户行为的数据。&lt;/p&gt;&lt;p&gt; 我接受 &lt;a href="{privacyUrl}" target="_blank" rel="noopener"&gt;隐私政策&lt;/a&gt;.&lt;/p&gt;</value>
   </data>
   <data name="users.consent.emailHeadline" xml:space="preserve">
     <value>自动电子邮件（可选）</value>
   </data>
   <data name="users.consent.emailText" xml:space="preserve">
-    <value>我理解并同意 Squidex 发送电子邮件来通知我有关新功能、重大更改和停机时间的信息。</value>
+    <value>我理解并同意 IFA 发送电子邮件来通知我有关新功能、重大更改和停机时间的信息。</value>
   </data>
   <data name="users.consent.headline" xml:space="preserve">
     <value>我们需要您的同意</value>
@@ -1064,7 +1064,7 @@
     <value>个人信息</value>
   </data>
   <data name="users.consent.piiText" xml:space="preserve">
-    <value>我理解并同意 Squidex 收集从外部身份验证提供商（例如 Google、Microsoft 或 Github）检索到的以下私人信息。&lt;ul class="personal-information"&gt; &lt;li&gt;向所有其他用户提供基本的个人信息（名字、姓氏和照片），以便他们可以将您添加到他们的工作空间。&lt;/li&gt;&lt;li&gt;您可以随时选择更改这些信息以使您的帐户匿名. &lt;/li&gt;&lt;li&gt;您的用户帐户具有唯一标识符，对于我们跟踪的所有更改，您进行了这些更改并将此信息提供给其他用户。&lt;/li&gt;&lt;/ul&gt;</value>
+    <value>我理解并同意 IFA 收集从外部身份验证提供商（例如 Google、Microsoft 或 Github）检索到的以下私人信息。&lt;ul class="personal-information"&gt; &lt;li&gt;向所有其他用户提供基本的个人信息（名字、姓氏和照片），以便他们可以将您添加到他们的工作空间。&lt;/li&gt;&lt;li&gt;您可以随时选择更改这些信息以使您的帐户匿名. &lt;/li&gt;&lt;li&gt;您的用户帐户具有唯一标识符，对于我们跟踪的所有更改，您进行了这些更改并将此信息提供给其他用户。&lt;/li&gt;&lt;/ul&gt;</value>
   </data>
   <data name="users.consent.title" xml:space="preserve">
     <value>同意</value>
@@ -1133,7 +1133,7 @@
     <value>注销</value>
   </data>
   <data name="users.noEmailAddress" xml:space="preserve">
-    <value>We cannot get the email address from authentication provider.</value>
+    <value>Nous ne pouvons pas obtenir l'adresse e-mail du fournisseur d'authentification.</value>
   </data>
   <data name="users.profile.addLoginDone" xml:space="preserve">
     <value>登录添加成功。</value>
@@ -1238,7 +1238,7 @@
     <value>图片不是有效图片。</value>
   </data>
   <data name="validation.notAnValidSvg" xml:space="preserve">
-    <value>The SVG is malicious and contains script tags.</value>
+    <value>Le SVG est malveillant et contient des balises de script.</value>
   </data>
   <data name="validation.onlyOneFile" xml:space="preserve">
     <value>只能上传一个文件。</value>

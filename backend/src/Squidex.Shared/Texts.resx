@@ -407,7 +407,7 @@
     <value>Aperçu des URL</value>
   </data>
   <data name="common.product" xml:space="preserve">
-    <value>CMS sans tête Squidex</value>
+    <value>CMS IFA</value>
   </data>
   <data name="common.properties" xml:space="preserve">
     <value>Propriétés</value>
@@ -1010,10 +1010,10 @@
     <value>Vous utilisez le &lt;strong&gt;magasin de ressources FTP&lt;/strong&gt; . Il n'est pas recommandé d'utiliser ce type de stockage en raison de mauvaises performances.</value>
   </data>
   <data name="setup.ruleHttps.failure" xml:space="preserve">
-    <value>Vous n'accédez pas au site via https. Si cet avertissement n'est pas correct, Squidex ne peut pas détecter le mode https, car votre instance se trouve derrière un proxy inverse tel que nginx. Assurez-vous que les en-têtes http sont correctement transférés, via les en-têtes &lt;code&gt;X-Forwarded-*&lt;/code&gt; .</value>
+    <value>Vous n'accédez pas au site via https. Si cet avertissement n'est pas correct, IFA ne peut pas détecter le mode https, car votre instance se trouve derrière un proxy inverse tel que nginx. Assurez-vous que les en-têtes http sont correctement transférés, via les en-têtes &lt;code&gt;X-Forwarded-*&lt;/code&gt; .</value>
   </data>
   <data name="setup.ruleHttps.success" xml:space="preserve">
-    <value>Félicitations, vous accédez à votre installation Squidex via une connexion sécurisée (https).</value>
+    <value>Félicitations, vous accédez à votre installation IFA via une connexion sécurisée (https).</value>
   </data>
   <data name="setup.rules.headline" xml:space="preserve">
     <value>Liste de contrôle du système</value>
@@ -1025,10 +1025,10 @@
     <value>Avec votre configuration, chaque utilisateur peut créer de nouvelles équipes. Si vous souhaitez modifier ce paramètre, &lt;code&gt;UI__ONLYADMINSCANCREATETEAMS=true&lt;/code&gt; comme variable d'environnement.</value>
   </data>
   <data name="setup.ruleUrl.failure" xml:space="preserve">
-    <value>Vous devez accéder à Squidex uniquement via une URL canonique et configurer cette URL avec la variable d'environnement &lt;code&gt;URLS__BASEURL&lt;/code&gt; . L'URL de base actuelle &lt;code&gt;{actual}&lt;/code&gt; ne correspond pas à l'URL de base &lt;code&gt;{configured}&lt;/code&gt; . Cette variable doit pointer vers l'URL publique sous laquelle votre instance Squidex est disponible.</value>
+    <value>Vous devez accéder à IFA uniquement via une URL canonique et configurer cette URL avec la variable d'environnement &lt;code&gt;URLS__BASEURL&lt;/code&gt; . L'URL de base actuelle &lt;code&gt;{actual}&lt;/code&gt; ne correspond pas à l'URL de base &lt;code&gt;{configured}&lt;/code&gt; . Cette variable doit pointer vers l'URL publique sous laquelle votre instance IFA est disponible.</value>
   </data>
   <data name="setup.ruleUrl.success" xml:space="preserve">
-    <value>Félicitations, la variable d'environnement &lt;code&gt;URLS__BASEURL&lt;/code&gt; est configurée correctement. Cette variable doit pointer vers l'URL publique sous laquelle votre instance Squidex est disponible.</value>
+    <value>Félicitations, la variable d'environnement &lt;code&gt;URLS__BASEURL&lt;/code&gt; est configurée correctement. Cette variable doit pointer vers l'URL publique sous laquelle votre instance IFA est disponible.</value>
   </data>
   <data name="setup.title" xml:space="preserve">
     <value>Installation</value>
@@ -1046,13 +1046,13 @@
     <value>Cookies et analyses</value>
   </data>
   <data name="users.consent.cookiesText" xml:space="preserve">
-    <value>&lt;p&gt;Je comprends et j'accepte que Squidex utilise des cookies pour vous garantir la meilleure expérience sur notre plateforme et pour stocker votre statut de connexion.&lt;/p&gt;&lt;p&gt; Je comprends et j'accepte que Squidex ait intégré Google Analytics (avec la fonction d'anonymisation). Google Analytics est un service d'analyse Web permettant de collecter et d'analyser des données sur le comportement des utilisateurs.&lt;/p&gt;&lt;p&gt; J'accepte les &lt;a href="{privacyUrl}" target="_blank" rel="noopener"&gt;politiques de confidentialité&lt;/a&gt; .&lt;/p&gt;</value>
+    <value>&lt;p&gt;Je comprends et j'accepte que IFA utilise des cookies pour vous garantir la meilleure expérience sur notre plateforme et pour stocker votre statut de connexion.&lt;/p&gt;&lt;p&gt; Je comprends et j'accepte que IFA ait intégré Google Analytics (avec la fonction d'anonymisation). Google Analytics est un service d'analyse Web permettant de collecter et d'analyser des données sur le comportement des utilisateurs.&lt;/p&gt;&lt;p&gt; J'accepte les &lt;a href="{privacyUrl}" target="_blank" rel="noopener"&gt;politiques de confidentialité&lt;/a&gt; .&lt;/p&gt;</value>
   </data>
   <data name="users.consent.emailHeadline" xml:space="preserve">
     <value>Courriels automatisés (facultatif)</value>
   </data>
   <data name="users.consent.emailText" xml:space="preserve">
-    <value>Je comprends et j'accepte que Squidex envoie des e-mails pour m'informer des nouvelles fonctionnalités, des changements de rupture et des temps d'arrêt.</value>
+    <value>Je comprends et j'accepte que IFA envoie des e-mails pour m'informer des nouvelles fonctionnalités, des changements de rupture et des temps d'arrêt.</value>
   </data>
   <data name="users.consent.headline" xml:space="preserve">
     <value>Nous avons besoin de votre consentement</value>
@@ -1064,7 +1064,7 @@
     <value>Informations personnelles</value>
   </data>
   <data name="users.consent.piiText" xml:space="preserve">
-    <value>Je comprends et j'accepte que Squidex collecte les informations privées suivantes qui sont récupérées auprès de fournisseurs d'authentification externes tels que Google, Microsoft ou Github.&lt;ul class="personal-information"&gt;&lt;li&gt; Des informations personnelles de base (prénom, nom et photo) sont fournies à tous les autres utilisateurs afin qu'ils puissent vous ajouter à leur espace de travail.&lt;/li&gt;&lt;li&gt; A tout moment, vous avez la possibilité de modifier ces informations pour anonymiser votre compte.&lt;/li&gt;&lt;li&gt; Votre compte d'utilisateur a un identifiant unique et pour toutes vos modifications, nous suivons que vous avez apporté ces modifications et fournissez ces informations à d'autres utilisateurs.&lt;/li&gt;&lt;/ul&gt;</value>
+    <value>Je comprends et j'accepte que IFA collecte les informations privées suivantes qui sont récupérées auprès de fournisseurs d'authentification externes tels que Google, Microsoft ou Github.&lt;ul class="personal-information"&gt;&lt;li&gt; Des informations personnelles de base (prénom, nom et photo) sont fournies à tous les autres utilisateurs afin qu'ils puissent vous ajouter à leur espace de travail.&lt;/li&gt;&lt;li&gt; A tout moment, vous avez la possibilité de modifier ces informations pour anonymiser votre compte.&lt;/li&gt;&lt;li&gt; Votre compte d'utilisateur a un identifiant unique et pour toutes vos modifications, nous suivons que vous avez apporté ces modifications et fournissez ces informations à d'autres utilisateurs.&lt;/li&gt;&lt;/ul&gt;</value>
   </data>
   <data name="users.consent.title" xml:space="preserve">
     <value>Consentement</value>
